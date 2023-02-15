@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
-<title>About Us</title>
+<title>About Me</title>
+<head>
+  <link rel="stylesheet" href="./style.css" />
+</head>
 
 <body>
 
@@ -12,7 +15,8 @@
                 <tr>
                     <td>
                         <a href="index.html">
-                            <img src="assets/Logo/S Company.jpg" width="100px" alt="">
+                            <img src="./assets/Icons/User 2.png" width="100px" alt="">
+                            <h3>My Info About Me</h3>
                         </a>
 
                     </td>
@@ -30,58 +34,134 @@
     </head>
 
     <!--This is our main it will encompass all our content for the landing page for our site -->
-    <main style="height: 100vh; background-color: rgb(211, 199, 199);">
-      <img src="/assets/Images/room.jpg" alt="">
-        <div class="about-section">
-            <h1>About Us Page</h1>
-            <p>We are trying learn more about coding <br>its tricky but one day we <br>master it</p>
-          </div>
-          
-          <h2 style="text-align:center">Our Team</h2>
-          <div class="row">
-            <div class="column">
-              <div class="card">
-                <img src="/assets/Images/Lss.jpg" alt="Lebogang Sylvester Seleke" style="width:100%">
-                <div class="container">
-                  <h2>Lebogang Sylvester Seleke</h2>
-                  <p class="title">CEO & Founder</p>
-                  <p>The go to guy if you need any assistance</p>
-                  <p>selekesylvester@gmail.com</p>
-                  <p><button class="button">067 976 5066</button></p>
-                </div>
-              </div>
-            </div>
-          
-            <div class="column">
-              <div class="card">
-                <img src="/assets/Images/Thando.jpg" alt="Onolithando Marylin Khuthu" style="width:100%">
-                <div class="container">
-                  <h2>Onolithando Marylin Khuthu</h2>
-                  <p class="title">Art Director</p>
-                  <p>She's a humble soul who loves to socialize </p>
-                  <p>onoluthandok@gmail.com</p>
-                  <p><button class="button">078 050 400</button></p>
-                </div>
-              </div>
-            </div>
-          
-            <div class="column">
-              <div class="card">
-                <img src="/assets/Images/B.JPG" alt="Boitshoko Victoria Seleke" style="width:100%">
-                <div class="container">
-                  <h2>Boitshoko Victoria Seleke</h2>
-                  <p class="title">Designer</p>
-                  <p>Strict person who does not joke around </p>
-                  <p>victoriseleke@gmail.com</p>
-                  <p><button class="button">0735315751</button></p>
-                </div>
-              </div>
-            </div>
-          </div>
+    <main class="mainContainer">
+      <table id="skillsList">
+        <tr>
+          <td rowspan="2">
+            <img src="./assets/Icons/html.png" class="iconImg" alt="">
+          </td>
+          </td>
+          <td>
+            <h3 class="sub">HTML</h3>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <p class="prof">Level 1</p>
+          </td>
+        </tr>
+        
+        <tr>
+          <td rowspan="2">
+            <img src="./assets/Icons/css.png" class="iconImg" alt="">
+          </td>
+          </td>
+          <td>
+            <h3 class="sub">CSS</h3>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <p class="prof">Level 1</p>
+          </td>
+          </tr>
+
+          <tr>
+            <td rowspan="2">
+              <img src="./assets/Icons/js-file.png" class="iconImg" alt="">
+            </td>
+            </td>
+            <td>
+              <h3 class="sub">JAVASCRIPT</h3>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p class="prof">Level 0</p>
+            </td>
+          </tr>
+
+          <tr>
+            <td rowspan="2">
+              <img src="./assets/Icons/license.png" class="iconImg" alt="">
+            </td>
+            </td>
+            <td>
+              <h3 class="sub">DRIVER'S LINCENCE</h3>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p class="prof">Code 10</p>
+            </td>
+          </tr>
+
+          <tr>
+            <td rowspan="2">
+              <img src="./assets/Icons/plumber.png" class="iconImg" alt="">
+            </td>
+            </td>
+            <td>
+              <h3 class="sub">PLUMBING</h3>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p class="prof">Level 3</p>
+            </td>
+          </tr>
+
+          <tr>
+            <td rowspan="2">
+              <img src="./assets/Icons/education.png" class="iconImg" alt="">
+            </td>
+            </td>
+            <td>
+              <h3 class="sub">HIGHEST GRADE PASTED</h3>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p class="prof">Grade 9</p>
+            </td>
+          </tr>
+
+          <tr>
+            <td rowspan="2">
+              <img src="./assets/Icons/workers.png" class="iconImg" alt="">
+            </td>
+            </td>
+            <td>
+              <h3 class="sub">WORK EXP</h3>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p class="prof">Level 4</p>
+            </td>
+          </tr>
+
+          <tr>
+            <td rowspan="2">
+              <img src="./assets/Icons/phone.png" class="iconImg" alt="">
+            </td>
+            </td>
+            <td>
+              <h3 class="sub">CONTACT DETAILS</h3>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p class="prof">067 976 5066</p>
+            </td>
+          </tr>
+        </tr>
+      </table>     
     </main>
 
     <!--This is our footer it will encompass all the quick links on our website  -->
     <footer>
+      <h3>&COPY; Copyrights Reserved. By Lebogang Sylveter Seleke &reg;</h3>
     </footer>
 
 </body>
